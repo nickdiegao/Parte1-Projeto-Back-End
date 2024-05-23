@@ -1,0 +1,93 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide a tela em duas colunas iguais */
+    gap: 40px; /* Espaçamento entre as colunas */
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+.image {
+    grid-column: 1; /* A imagem vai ocupar a primeira coluna */
+    margin-left: 1em;
+}
+
+.imagem-compra {
+    border: 6px solid black;
+    border-radius: 12px;
+}
+
+.text {
+    grid-column: 2; /* O texto vai ocupar a segunda coluna */
+    margin-right: 6em;
+}
+/* Estilos adicionais apenas para melhorar a aparência */
+.image img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da coluna */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.textos-precos {
+    background-color: #DDDDDD;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 1.2em;
+    margin: 1em 0 1em 0;
+    padding: 1em;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+    font-size: 2em;
+}
+
+#texto-cep {
+    padding: 1em;
+    border: 3px solid black;
+    margin-bottom: 1em;
+}
+
+.tamanho-camisa {
+    padding: 1em;
+    background-color: white;
+    border: 2px solid #B5C0D0;
+    cursor: pointer;
+    gap: 2em;
+}
+
+.tamanho-camisa:hover {
+    color: #DD761C;
+    border: 2px solid #DD761C;
+}   
+
+.tamanho-camisa.selected {
+    background-color:#DD761C ;
+    color: white;
+    border: 3px solid white;
+}
+
+.adicionar-carrinho {
+    margin: 3em 1em 0 0;
+    background-color: white;
+    border: 3px solid black;
+    padding: 1em;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.adicionar-carrinho:hover {
+    background-color: #B5C0D0;
+}
+
+.comprar-agora {
+    margin: 3em 1em 0 0;
+    background-color: white;
+    border: 3px solid black;
+    padding: 1em;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.comprar-agora:hover {
+    background-color: #B5C0D0;
+}
+

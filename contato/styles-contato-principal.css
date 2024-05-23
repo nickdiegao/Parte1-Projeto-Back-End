@@ -11,7 +11,7 @@
 }
 
 body {
-    height: 200vh;
+    height: 100vh;
     width: 200vh;
     background-color: #EEEDEB;
 }
@@ -81,17 +81,15 @@ h2:hover {
 
 .carrinho { 
     position: absolute;
-    right: 0; 
+    right: 0; /* Posiciona o elemento à direita */
     margin-top: 1.5em;
     margin-right: 2em;
     padding: 0.4em;
     background-color: white;
+    fill: white;
     width: 1.6em;
+    border: 2px solid white;
     border-radius: 16px;
-    cursor: pointer;
-}
-
-.links-carrinho {
     cursor: pointer;
 }
 
@@ -146,6 +144,7 @@ aside a{
     font-family: "Radio Canada Big", sans-serif;
     margin: 0 2em 0 2em;
     cursor: pointer;
+
 }
 
 .bordas {

@@ -11,7 +11,7 @@
 }
 
 body {
-    height: 200vh;
+    height: 100vh;
     width: 200vh;
     background-color: #EEEDEB;
 }
@@ -69,10 +69,6 @@ body {
 .links {
     text-decoration: none;
     color: black;
-}
-
-h2:hover {
-    color: #DD761C;
 }
 
 .links-header:hover {
@@ -251,4 +247,15 @@ h2 {
     font-size: 1.2em;
     padding-bottom: 1em;
     color: white;
+}
+
+/**/
+.textos-h2 {
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 1.4em;
+}
+
+.textos {
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 1.2em;
 }

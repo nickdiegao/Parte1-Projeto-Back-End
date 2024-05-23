@@ -1,0 +1,45 @@
+.form {
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 1em;
+}
+
+.label-form {
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 1.3em;
+    margin-left: 2em;
+}
+
+.input-form {
+    margin-left: 2em;
+    width: 30%;
+    padding: 0.4em;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.botao-form {
+    width: 10%;
+    padding: 1em;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 1.3em;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    font-family: "Radio Canada Big", sans-serif;
+    margin: 0 0 0 2em;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.botao-form:hover {
+    background-color: #31363F;
+}
+
+input[type=text],
+    input[type=email],
+    input[type=tel],
+    textarea {
+        font-size: 1.1em;
+        font-family: "Radio Canada Big", sans-serif;
+    }
